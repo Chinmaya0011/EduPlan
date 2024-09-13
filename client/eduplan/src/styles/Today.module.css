@@ -1,0 +1,75 @@
+/* Today.module.css */
+
+.container {
+  padding: 20px;
+  background-color: #f9f9f9; /* Light background color */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.openModalButton {
+  background-color: #007bff; /* Primary button color */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  margin-bottom: 10px;
+}
+
+.openModalButton:hover {
+  background-color: #0056b3; /* Darker shade for hover effect */
+}
+
+.toggleButton {
+  background: transparent;
+  border: none;
+  font-size: 24px; /* Size of the icon */
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.toggleButton:hover {
+  color: #007bff; /* Color change on hover */
+}
+
+.todayData {
+  margin-top: 20px;
+  background-color: #ffffff; /* White background for the data section */
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.todayData h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.todayData h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.todayData p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.todayData strong {
+  font-weight: 600;
+}
+
+.todayData a {
+  color: #007bff; /* Link color */
+  text-decoration: none;
+}
+
+.todayData a:hover {
+  text-decoration: underline;
+}

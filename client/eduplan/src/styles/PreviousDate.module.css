@@ -1,0 +1,60 @@
+/* Container for the entire component */
+.container {
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Header styling */
+h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+/* List of past activities */
+.list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Each activity item */
+.item {
+  padding: 0.75rem;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.item:hover {
+  background-color: #f0f0f0;
+}
+
+/* Modal styling */
+.modalContent {
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Modal heading */
+.modalContent h2 {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  color: #333;
+}
+
+/* Form elements */
+form p {
+  margin-bottom: 0.5rem;
+  color: #666;
+}
+
+form strong {
+  color: #333;
+}

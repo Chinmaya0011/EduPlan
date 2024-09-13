@@ -1,0 +1,42 @@
+/* src/styles/Data.module.css */
+.dataContainer {
+    display: flex;
+    justify-content: space-between; /* Aligns children with space between */
+    gap: 1rem; /* Space between the two sections */
+  }
+  
+  .activities, .futurePlans {
+    flex: 1; /* Makes each section take up equal space */
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 0; /* Ensure no extra margin on the sides */
+  }
+  
+  .activities h2, .futurePlans h2 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .activityItem, .planItem {
+    margin-bottom: 1rem;
+  }
+  
+  .activityLink a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .activityLink a:hover {
+    text-decoration: underline;
+  }
+  
+  .studyTime {
+    color: #555;
+  }
+  
+  .addedOn {
+    font-style: italic;
+    color: #888;
+  }
+  

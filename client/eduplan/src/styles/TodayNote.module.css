@@ -1,0 +1,67 @@
+/* src/styles/TodayNote.module.css */
+
+.container {
+  
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input,
+.textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.input {
+  height: 40px;
+}
+
+.textarea {
+  height: 100px;
+}
+
+.uploadContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.uploadButton {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+}
+
+.uploadButton:hover {
+  background-color: #0056b3;
+}
+
+.imagePreview {
+  margin-top: 10px;
+  max-width: 100%;
+  max-height: 200px;
+  border-radius: 4px;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
